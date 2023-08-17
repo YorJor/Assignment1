@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Doggy';
+    src: url('Doggy.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('dog.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 32px; 
+    font-family: 'Doggy', Arial, sans-serif;
+}
+
+.background-container {
+    background-color: #ae86539b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+select {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    height: 40px; 
+    font-size: 24px; 
+    font-family: 'Doggy', Arial, sans-serif;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label[for="table"] {
+    color: #fff;
+}
+
+button {
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 24px; 
+    font-family: 'Doggy', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #654321;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="container">
+            <h1>Dog Expo Registration</h1>
+            <form class="signup-form">
+                <input type="text" id="companyName" name="companyName" placeholder=" Company Name" required>
+                <input type="text" id="name" name="name" placeholder=" Full Name" required>
+                <input type="text" id="mobile" name="mobile" placeholder=" Mobile Number" required>
+                <input type="text" id="chairs" name="chairs" placeholder=" Amount of Chairs" required>
+                <select id="size" name="size" required>
+                    <option value="" disabled selected>Select Booth Size</option>
+                    <option value="big">10x15ft</option>
+                    <option value="small">10x10ft</option>
+                </select>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="table" name="table">
+                    <label for="table">Request Table</label>
+                </div>
+                <button type="submit">Summit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
